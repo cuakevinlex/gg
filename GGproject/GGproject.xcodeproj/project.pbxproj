@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1D4670691A62E3760033BA47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4670681A62E3760033BA47 /* Images.xcassets */; };
+		1D46706C1A62FA960033BA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D46706A1A62FA960033BA47 /* Main.storyboard */; };
 		1DED681A1A5AB6DC007B1CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DED68191A5AB6DC007B1CCC /* AppDelegate.swift */; };
 		1DED681C1A5AB6DC007B1CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DED681B1A5AB6DC007B1CCC /* ViewController.swift */; };
-		1DED681F1A5AB6DC007B1CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DED681D1A5AB6DC007B1CCC /* Main.storyboard */; };
 		1DED68241A5AB6DC007B1CCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DED68221A5AB6DC007B1CCC /* LaunchScreen.xib */; };
 		1DED68301A5AB6DC007B1CCC /* GGprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DED682F1A5AB6DC007B1CCC /* GGprojectTests.swift */; };
 /* End PBXBuildFile section */
@@ -27,11 +27,11 @@
 
 /* Begin PBXFileReference section */
 		1D4670681A62E3760033BA47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D46706B1A62FA960033BA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DED68141A5AB6DC007B1CCC /* GGproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DED68181A5AB6DC007B1CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DED68191A5AB6DC007B1CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DED681B1A5AB6DC007B1CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DED681E1A5AB6DC007B1CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DED68231A5AB6DC007B1CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1DED68291A5AB6DC007B1CCC /* GGprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DED682E1A5AB6DC007B1CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			children = (
 				1DED68191A5AB6DC007B1CCC /* AppDelegate.swift */,
 				1DED681B1A5AB6DC007B1CCC /* ViewController.swift */,
-				1DED681D1A5AB6DC007B1CCC /* Main.storyboard */,
+				1D46706A1A62FA960033BA47 /* Main.storyboard */,
 				1D4670681A62E3760033BA47 /* Images.xcassets */,
 				1DED68221A5AB6DC007B1CCC /* LaunchScreen.xib */,
 				1DED68171A5AB6DC007B1CCC /* Supporting Files */,
@@ -192,8 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D46706C1A62FA960033BA47 /* Main.storyboard in Resources */,
 				1D4670691A62E3760033BA47 /* Images.xcassets in Resources */,
-				1DED681F1A5AB6DC007B1CCC /* Main.storyboard in Resources */,
 				1DED68241A5AB6DC007B1CCC /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,10 +236,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1DED681D1A5AB6DC007B1CCC /* Main.storyboard */ = {
+		1D46706A1A62FA960033BA47 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DED681E1A5AB6DC007B1CCC /* Base */,
+				1D46706B1A62FA960033BA47 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
